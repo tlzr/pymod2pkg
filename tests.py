@@ -20,7 +20,7 @@ try:
 except ImportError:
     import unittest
 
-import pymod2pkg
+from pymod2pkg import pymod2pkg
 
 
 class Pymod2PkgTests(unittest.TestCase):
